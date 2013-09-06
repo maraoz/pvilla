@@ -1,0 +1,124 @@
+/*GLOBAL FRAMEWORK V1.8 - AUTHORIZED PERSONNEL ONLY - EYES ONLY - W3C VALID*/
+* {margin: 0px; padding: 0px; border: 0px none; outline: 0px;}
+UL, LI {list-style: none;}
+A { text-decoration:none; }
+
+/*Cleaners*/
+.CleanFloats{clear: both; float: none; height: 0px;}
+.Clearfix:after {/*W3C*/
+	content:"."; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden;
+}
+*+html .Clearfix {min-height: 1%;} /*IE7*/
+* html .Clearfix {height:1%;} /*IE6*/
+/*FIN GLOBAL*/
+
+
+/*MAIN LAYOUT*/
+/*--------------  ------------- */
+BODY { background:#202020;  }
+#box_header { width:100%; height:552px; background:url(../img/fondo.jpg); }
+
+.box-leyenda { width:780px; margin:30px auto 80px; }
+
+.leyenda { width:743px; margin:0 auto; }
+.flecha-flotante { position:relative; float:right; margin-top:-130px; }
+
+.btn_fs { float:left; margin:-40px 0 0 0; width:386px; height:61px; background:url(../img/btn-fb.png) no-repeat 0 0; position:relative;  }
+.btn_fs:hover { background:url(../img/btn-fb.png) no-repeat 0 -61px; }
+
+.btn_tw { float:left; margin:-30px 0 0 0; width:386px; height:61px; background:url(../img/btn-vota-tw.png) no-repeat 0 0; position:relative;  }
+.btn_tw:hover { background:url(../img/btn-vota-tw.png) no-repeat 0 -61px; }
+
+.box-revolucionarios { width:980px; margin:0 auto; z-index:101; position:relative; margin-top:-60px; }
+.box-revolucionarios .btn1 { float:left; width:254px; height:218px; background:url(../img/btn-1.png) no-repeat 0 0; cursor:pointer;  }
+.box-revolucionarios .btn1:hover { background:url(../img/btn-1.png) no-repeat 0 -217px; }
+
+.box-revolucionarios .btn2 { float:left; width:254px; height:218px; margin-left:-22px; background:url(../img/btn-2.png) no-repeat 0 0; cursor:pointer;  }
+.box-revolucionarios .btn2:hover { background:url(../img/btn-2.png) no-repeat 0 -222px; }
+
+.box-revolucionarios .btn3 { float:left; width:254px; height:218px; margin-left:-22px; background:url(../img/btn-3.png) no-repeat 0 0; cursor:pointer;  }
+.box-revolucionarios .btn3:hover { background:url(../img/btn-3.png) no-repeat 0 -219px; }
+
+.box-revolucionarios .btn4 { float:left; width:263px; margin-left:-22px; height:225px; background:url(../img/btn-4.png) no-repeat 0 0; cursor:pointer;  }
+.box-revolucionarios .btn4:hover { background:url(../img/btn-4.png) no-repeat 0 -230px; }
+
+
+
+
+
+#parallax2 { width: 1056px; height: 447px; margin:0 auto; overflow: hidden; position: relative; }
+
+#box_footer { width:100%; background:url(../img/bk_footer.jpg) no-repeat center top; padding:37px 0 0; height:1387px; }
+#box_footer .mainbox_footer { width:975px; min-height:50px; margin:0 auto; }
+
+#box_footer .mainbox_footer .box_votos { float:left; margin-right:2px; margin-top:0px; width:410px; }
+
+#box_footer .mainbox_footer .box_tw { float:left; height:650px; width:550px; }
+#box_footer .mainbox_footer .box_tw .box_tw_header {  }
+
+#box_footer .mainbox_footer .box_tw .box_tw_top { width:547px; height:26px; background:url(../img/top_tw.png) no-repeat center top; }
+#box_footer .mainbox_footer .box_tw .box_tw_footer { width:551px; height:5px; background:url(../img/footer-twetter.png) no-repeat center top; }
+#box_footer .mainbox_footer .box_tw .box_tw_content { margin:0 auto; width:535px; min-height:700px; }
+
+.flecha { width:975px; height:79px; background:url(../img/flecha-footer.png) no-repeat center top; margin:0 auto; }
+
+.footer { text-align:center; padding-top:5px; /*background:url(../img/bg-footer.jpg) no-repeat center top;*/ color:#FFF; font-family: 'pill_gothic_300mgsemibd'; font-size:14px; height:205px; }
+
+/*#shell .top_revolucion {position:relative; top:0px; left:130px; z-index:9 }*/
+
+#shell .top_revolucion { width:972px; margin:20px auto 0; z-index:9; position:relative; }
+
+
+/*lightbox*/
+#box_lightbox {  width:580px; height:446px; background:url(../img/lightbox.png) no-repeat; }
+
+#box_lightbox .cont_texto { width:370px; margin:0 auto; padding:172px 0 80px 0; text-align:center; font-style:italic; line-height:25px; font-family:Georgia, "Times New Roman", Times, serif; font-size:12px; color:#cfba81; text-shadow:#000000 2px 2px; filter: progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=1); /*ie8*/  }
+
+#box_lightbox .cont_texto span { color:#fe713e; }
+
+/*buttons ingresar*/
+#box_lightbox  .btn_ingresar { margin:0 auto; width:214px; height:42px; background:url(../img/btn_ingresar.png) no-repeat 0 0; cursor:pointer; }
+#box_lightbox  .btn_ingresar:hover { background:url(../img/btn_ingresar.png) no-repeat 0 -43px; }
+#box_lightbox  .btn_ingresar:active { background:url(../img/btn_ingresar.png) no-repeat 0 -86px; }
+
+
+.box_produccion { width:960px; margin:10px auto; text-align:center; color:#bd5432; font-family:Arial, Helvetica, sans-serif; font-size:10px; }
+.box_produccion A { color:#bd5432; }
+
+/*scroll*/
+#scrollbar1 { width: 520px; float:left; margin:10px 0px 0px 0px; }
+#scrollbar1 .viewport { width: 510px; height:870px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: #bd5432; /*-webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px; left:-5px;*/ }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 8px; }
+#scrollbar1 .track { background-color: #a79767; height: 100%; width:8px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 20px; width: 8px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 8px; }
+#scrollbar1 .disable{ display: none; }
+
+
+/*premio ccsAwards*/
+.ccsAwards {
+    position: fixed;
+    right: 0;
+    top: 0px;
+	z-index:9999;
+}
+
+.sep-middle { float:left; width:9px; margin-top:47px; }
+
+ul.list-votos { padding:0; margin:0; list-style:none; }
+ul.list-votos li { padding:20px 0; background:url(../img/sep-li-votos.png) no-repeat center bottom; overflow:hidden; }
+
+img.procer { float:left; margin-right:10px; }
+.puntos { float:left; }
+.puntos p.puntos-numero { font-size:36px; color:#202020; font-family: 'pill_gothic_300mgsemibd'; text-align:right; }
+.datos { float:left; width:190px; }
+.datos p.posicion { font-size:36px; color:#202020; font-family: 'pill_gothic_300mgsemibd'; margin:10px 0 15px; }
+.datos p.nombre { font-size:14px; color:#202020; font-family: 'pill_gothic_300mgsemibd'; text-transform:uppercase; }
+.datos p.cargo { font-size:12px; color:#202020;  font-family: 'pill_gothic_300mgsemibd_obq'; text-transform:uppercase; }

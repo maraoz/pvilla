@@ -1,0 +1,35 @@
+function printSuccess(data, textStatus){
+    alert(data);
+}
+
+$.getJSON('https://www.proofofexistence.com/api/register', function(data) {
+  alert(data);
+});
+
+//Test Twitter : should return OK 
+/*$.twitter.test(printSuccess);
+//Search methods
+$.twitter.search("test",printSuccess);
+$.twitter.search.user("sroucheray",printSuccess);
+$.twitter.search.repliesTo("sroucheray",printSuccess);
+$.twitter.search.mentioned("sroucheray",printSuccess);
+$.twitter.search.hashtag("35days",printSuccess);
+
+//Trends methods
+$.twitter.trends.current(printSuccess);
+$.twitter.trends.daily(printSuccess);
+$.twitter.trends.weekly(printSuccess);
+
+//Public methods
+$.twitter.statuses.publicTimeline(printSuccess);
+$.twitter.statuses.show("123", printSuccess);
+$.twitter.statuses.friends("42421507", printSuccess);
+
+//Social Graph methods 
+$.twitter.friends.ids("123", printSuccess);
+$.twitter.followers.ids("123", printSuccess);
+
+//Twitter API limitation check
+$.twitter.account.rateLimitStatus(printSuccess);
+
+*/
